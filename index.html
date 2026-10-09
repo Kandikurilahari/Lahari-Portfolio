@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Lahari Kandukuri - Computer Science Engineering Student & Aspiring Software Developer.">
+  <title>Lahari Kandukuri | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for crisp, professional typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-badge">LK</span>
+        <span class="logo-text">Lahari Kandukuri</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#internship" class="nav-link">Internship</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link-btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO / HOME SECTION ==================== -->
+    <section class="hero section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">Welcome to my portfolio</div>
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Lahari Kandukuri</span></h1>
+          <p class="hero-subtitle">Computer Science Engineering Student | Aspiring Software Developer</p>
+          <p class="hero-desc">
+            Passionate about learning new technologies, writing clean code, and solving real-world problems.
+            Actively seeking internship and entry-level Software Developer opportunities to learn and grow.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#resume" class="btn btn-outline">Download Resume</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-icon">🎓</span>
+              <span>B.Tech CSE (2023–2027)</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-icon">📍</span>
+              <span>Kurnool, Andhra Pradesh</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="image-frame">
+            <!-- 
+              PROFILE PHOTO INSTRUCTION:
+              Save your photo as "profile.jpg" or "profile.png" inside the "assets/" folder, 
+              then update the src below or let script.js load it automatically.
+            -->
+            <img 
+              src="assets/profile.jpg" 
+              alt="Profile photo of Lahari Kandukuri" 
+              class="profile-img" 
+              id="profileImg"
+            >
+            <div class="status-chip">
+              <span class="status-dot"></span>
+              <span>Open to Opportunities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Know Who I Am</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card">
+            <h3 class="card-title">My Journey & Passion</h3>
+            <!-- Exact text specified by Lahari -->
+            <p class="about-paragraph">
+              Hi, I'm Lahari, a Computer Science Engineering student interested in software development and programming. I have practical experience in Python programming and knowledge of Java, C, HTML, CSS, JavaScript, and SQL. I enjoy learning new concepts, solving programming problems, and building projects that help me improve my skills. I am looking for opportunities to learn, gain practical experience, and grow as a software developer.
+            </p>
+          </div>
+
+          <div class="about-info-cards">
+            <div class="info-card">
+              <div class="info-icon">🎯</div>
+              <div class="info-details">
+                <h4>Career Goal</h4>
+                <p>Internship or entry-level Software Developer / Software Engineer</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">🏛️</div>
+              <div class="info-details">
+                <h4>College</h4>
+                <p>Ashoka Women's Engineering College, Kurnool</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">📅</div>
+              <div class="info-details">
+                <h4>Academic Period</h4>
+                <p>2023 – 2027 (Undergraduate)</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">🗣️</div>
+              <div class="info-details">
+                <h4>Languages Known</h4>
+                <p>Telugu and English</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Proficiency</span>
+          <h2 class="section-title">My Skills</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">
+            Technologies, foundational concepts, and software tools I have studied and worked with.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">💻</div>
+              <h3>Programming</h3>
+            </div>
+            <div class="skills-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">C</span>
+            </div>
+          </div>
+
+          <!-- Core Concepts -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🧠</div>
+              <h3>Core Concepts</h3>
+            </div>
+            <div class="skills-tags">
+              <span class="skill-tag">OOP</span>
+              <span class="skill-tag">Basic Data Structures</span>
+              <span class="skill-tag">Problem Solving</span>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🌐</div>
+              <h3>Web Development</h3>
+            </div>
+            <div class="skills-tags">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🗄️</div>
+              <h3>Database</h3>
+            </div>
+            <div class="skills-tags">
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">DBMS</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">🛠️</div>
+              <h3>Tools & Software</h3>
+            </div>
+            <div class="skills-tags">
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Jupyter Notebook</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Microsoft Word</span>
+              <span class="skill-tag">PowerPoint</span>
+              <span class="skill-tag">Microsoft Excel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="education section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2023 – 2027</span>
+                <span class="timeline-badge in-progress">In Progress</span>
+              </div>
+              <h3 class="timeline-degree">B.Tech – Computer Science and Engineering</h3>
+              <h4 class="timeline-school">Ashoka Women's Engineering College, Kurnool, Andhra Pradesh</h4>
+              <p class="timeline-score">
+                <strong>CGPA:</strong> 7.85 <span class="score-note">(Ongoing)</span>
+              </p>
+              <p class="timeline-desc">
+                Focusing on core computer science foundations, algorithm design, object-oriented programming, and web technologies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Intermediate -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2021 – 2023</span>
+                <span class="timeline-badge completed">Completed</span>
+              </div>
+              <h3 class="timeline-degree">Intermediate – MPC (Mathematics, Physics, Chemistry)</h3>
+              <h4 class="timeline-school">KGBV Junior College, Simhadripuram</h4>
+              <p class="timeline-score">
+                <strong>CGPA:</strong> 6.54 (65.4%)
+              </p>
+              <p class="timeline-desc">
+                Developed analytical reasoning, mathematics, and foundational scientific principles.
+              </p>
+            </div>
+          </div>
+
+          <!-- SSC -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-year">2020 – 2021</span>
+                <span class="timeline-badge completed">Completed</span>
+              </div>
+              <h3 class="timeline-degree">Secondary School Certificate (SSC)</h3>
+              <h4 class="timeline-school">KGBV Sanjamala</h4>
+              <p class="timeline-score">
+                <strong>CGPA:</strong> 9.07 (90.6%)
+              </p>
+              <p class="timeline-desc">
+                Completed secondary school education with distinction, demonstrating strong academic dedication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INTERNSHIP SECTION ==================== -->
+    <section class="internship section" id="internship">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Work Experience</span>
+          <h2 class="section-title">Internship</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="internship-wrapper">
+          <div class="internship-card">
+            <div class="internship-header">
+              <div class="internship-title-group">
+                <h3 class="internship-role">Python Programming Intern</h3>
+                <h4 class="internship-company">Embrizon Technologies <span class="collab-tag">in collaboration with Wipro</span></h4>
+              </div>
+              <div class="internship-period">
+                <span class="period-icon">📅</span>
+                <span>July 2025 – September 2025</span>
+              </div>
+            </div>
+
+            <div class="internship-body">
+              <p class="internship-summary">
+                Hands-on practical internship focused on core Python programming, structured problem solving, and data manipulation.
+              </p>
+              <ul class="internship-responsibilities">
+                <li>Practiced Python programming through hands-on exercises.</li>
+                <li>Used lists, tuples, and dictionaries to solve programming tasks.</li>
+                <li>Applied logical thinking to programming problems.</li>
+                <li>Debugged and improved code to produce correct solutions.</li>
+                <li>Strengthened programming and problem-solving skills.</li>
+              </ul>
+            </div>
+
+            <div class="internship-footer">
+              <span class="tag">Python</span>
+              <span class="tag">Data Structures (Lists, Tuples, Dictionaries)</span>
+              <span class="tag">Debugging</span>
+              <span class="tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Hands-on Work</span>
+          <h2 class="section-title">Projects</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">
+            Academic and personal projects demonstrating my frontend development and coding practice.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Job Application Tracker -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <div class="project-badge">Frontend Web App</div>
+              <h3 class="project-title">Job Application Tracker</h3>
+              <p class="project-desc">
+                A front-end web application designed to help students and job seekers organize and track their job applications.
+              </p>
+            </div>
+
+            <div class="project-features">
+              <h4 class="features-heading">Key Features:</h4>
+              <ul class="features-list">
+                <li>Dashboard and application statistics</li>
+                <li>Add and manage job applications</li>
+                <li>Company, role, and location details</li>
+                <li>Application status tracking</li>
+                <li>Interview tracking and deadlines</li>
+                <li>Bookmarks, notes, and resume version tracking</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+
+            <div class="project-links">
+              <!-- Links will be enabled when provided by Lahari -->
+              <span class="btn-placeholder" title="Add your GitHub repository URL">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                Code (Coming Soon)
+              </span>
+              <span class="btn-placeholder" title="Add your live deployment URL">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Demo (Coming Soon)
+              </span>
+            </div>
+          </div>
+
+          <!-- Project 2: Smart Healthcare Assistant -->
+          <div class="project-card">
+            <div class="project-card-top">
+              <div class="project-badge">Healthcare Web App</div>
+              <h3 class="project-title">Smart Healthcare Assistant for Disease Prediction and Management</h3>
+              <p class="project-desc">
+                A healthcare web assistant developed with Python and Flask to analyze user-provided symptoms and offer basic disease management suggestions.
+              </p>
+            </div>
+
+            <div class="project-features">
+              <h4 class="features-heading">Key Features:</h4>
+              <ul class="features-list">
+                <li>Developed a healthcare assistant based on user-provided symptoms.</li>
+                <li>Processed symptom inputs to generate possible disease predictions.</li>
+                <li>Created a simple Flask interface for user interaction.</li>
+                <li>Added basic disease information and management suggestions.</li>
+                <li>Focused on creating a simple and user-friendly application.</li>
+              </ul>
+            </div>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+            </div>
+
+            <div class="project-links">
+              <!-- Links will be enabled when provided by Lahari -->
+              <span class="btn-placeholder" title="Add your GitHub repository URL">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                Code (Coming Soon)
+              </span>
+              <span class="btn-placeholder" title="Add your live deployment URL">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                Demo (Coming Soon)
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS SECTION ==================== -->
+    <section class="certifications section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="certifications-content">
+          <div class="certifications-grid" id="certGrid">
+            <!-- Certification 1 -->
+            <div class="cert-card">
+              <div class="cert-icon">🐍</div>
+              <h4 class="cert-title">Python Programming Internship Certification</h4>
+              <p class="cert-org"><strong>Issuing Organization:</strong> Embrizon Technologies</p>
+              <p class="cert-date"><strong>Domain:</strong> Python & Data Analysis</p>
+              <span class="cert-badge">Verified Credential</span>
+            </div>
+
+            <!-- Certification 2 -->
+            <div class="cert-card">
+              <div class="cert-icon">🌐</div>
+              <h4 class="cert-title">Web Development Assignment Completion</h4>
+              <p class="cert-org"><strong>Issuing Organization:</strong> Gnavasavi Technology</p>
+              <p class="cert-date"><strong>Domain:</strong> Frontend Web Technologies</p>
+              <span class="cert-badge">Verified Credential</span>
+            </div>
+
+            <!-- Certification 3 -->
+            <div class="cert-card">
+              <div class="cert-icon">☁️</div>
+              <h4 class="cert-title">Cloud Computing</h4>
+              <p class="cert-org"><strong>Issuing Organization:</strong> NPTEL</p>
+              <p class="cert-date"><strong>Domain:</strong> Cloud Infrastructure & Services</p>
+              <span class="cert-badge">Verified Credential</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== RESUME SECTION ==================== -->
+    <section class="resume-section section" id="resume">
+      <div class="container">
+        <div class="resume-card">
+          <div class="resume-content">
+            <span class="section-tag">Curriculum Vitae</span>
+            <h2 class="resume-title">Interested in my profile?</h2>
+            <p class="resume-desc">
+              Download my complete resume for a detailed view of my academic coursework, technical skills, practical internship experience, and projects.
+            </p>
+
+            <div class="resume-cta-group">
+              <!-- Handled gracefully by script.js: checks if file exists, alerts politely if missing -->
+              <a href="assets/resume.pdf" class="btn btn-primary" id="downloadResumeBtn" download="Lahari_Kandukuri_Resume.pdf">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download Resume (PDF)
+              </a>
+              <span class="resume-format-hint">PDF Format &bull; Updated for 2026</span>
+            </div>
+
+            <!-- Resume status notice (appears if resume.pdf is not yet in assets/) -->
+            <div class="resume-status-alert hidden" id="resumeStatusAlert">
+              <span>ℹ️ <strong>Note:</strong> Resume PDF will be available soon. In the meantime, please feel free to reach out via the contact form or email below!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle">
+            Feel free to reach out to me for internships, entry-level opportunities, or academic collaborations.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Information & Editable Placeholders -->
+          <div class="contact-info">
+            <h3 class="contact-subtitle">Let's Connect</h3>
+            <p class="contact-text">
+              I am open to discussions regarding internship opportunities, software developer roles, and learning opportunities.
+            </p>
+
+            <div class="contact-details-list">
+              <!-- Email Item -->
+              <div class="contact-item">
+                <div class="contact-icon-box">✉️</div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:kandiukurilahari6301@gmail.com" class="contact-value" id="contactEmail">
+                    kandiukurilahari6301@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <!-- Phone Item -->
+              <div class="contact-item">
+                <div class="contact-icon-box">📞</div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Phone</span>
+                  <a href="tel:+916301145385" class="contact-value" id="contactPhone">
+                    +91 6301145385
+                  </a>
+                </div>
+              </div>
+
+              <!-- Location Item -->
+              <div class="contact-item">
+                <div class="contact-icon-box">📍</div>
+                <div class="contact-item-content">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Kurnool, Andhra Pradesh, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links-wrapper">
+              <span class="social-title">Profiles:</span>
+              <div class="social-links">
+                <!-- GitHub -->
+                <a href="https://github.com/Kandikurilahari" target="_blank" rel="noopener noreferrer" class="social-pill" id="githubLink" title="Visit Lahari's GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                  <span>GitHub</span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/lahari-kandukuri-005174306" target="_blank" rel="noopener noreferrer" class="social-pill" id="linkedinLink" title="Visit Lahari's LinkedIn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form with Client-Side Validation -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Send a Message</h3>
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name <span class="required">*</span></label>
+                <input 
+                  type="text" 
+                  id="name" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. Priyadarshini"
+                  required
+                >
+                <span class="field-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email <span class="required">*</span></label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. name@example.com"
+                  required
+                >
+                <span class="field-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input 
+                  type="text" 
+                  id="subject" 
+                  name="subject" 
+                  class="form-input" 
+                  placeholder="e.g. Internship Opportunity / Inquiry"
+                >
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  rows="4" 
+                  class="form-textarea" 
+                  placeholder="Write your message here..."
+                  required
+                ></textarea>
+                <span class="field-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                Send Message
+              </button>
+
+              <!-- Honest feedback notice: Static portfolio explanation -->
+              <div class="form-notice" id="formNotice" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p class="footer-copy">
+          &copy; <span id="currentYear"></span> <strong>Lahari Kandukuri</strong>. All rights reserved.
+        </p>
+        <p class="footer-sub">
+          B.Tech Computer Science &amp; Engineering &bull; Ashoka Women's Engineering College
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#home" class="back-to-top" aria-label="Back to top of page">
+          Back to Top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
