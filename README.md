@@ -8,7 +8,7 @@ I am passionate about programming, software development, and web technologies. T
 
 ## 🚀 Live Portfolio Website
 
-🌐 **Visit My Portfolio:**https://my-portfolio-umber-nu-95.vercel.app/
+🌐 **Visit My Portfolio:**https://kandikurilahari.github.io/Lahari-Portfolio/
 
 Explore my profile, technical skills, projects, internship experience, certifications, and contact information.
 
@@ -119,8 +119,7 @@ I am always interested in connecting with people, learning new technologies, and
 - **Phone:** +91 6301145385
 - **LinkedIn:** [Connect with me](https://www.linkedin.com/in/lahari-kandukuri-005174306)
 - **GitHub:** [Visit my GitHub Profile](https://github.com/Kandikurilahari)
-- **Portfolio:** [Visit My Website]https://my-portfolio-umber-nu-95.vercel.app/
-
+- **Portfolio:** https://kandikurilahari.github.io/Lahari-Portfolio/
 ## 📂 Project Structure
 
 ```text
