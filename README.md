@@ -1,90 +1,137 @@
-# Lahari Kandukuri — Personal Portfolio Website
+# 🌐 Lahari Kandukuri | Personal Portfolio Website
 
-A clean, responsive, student-developed personal portfolio website for **Lahari Kandukuri**, a Computer Science and Engineering undergraduate student at **Ashoka Women's Engineering College, Kurnool**.
+Welcome to my personal portfolio repository! 👋
 
-Built with pure **HTML5, CSS3, and vanilla JavaScript** (no external frameworks or build steps required).
+I am **Lahari Kandukuri**, a Computer Science and Engineering undergraduate student at **Ashoka Women's Engineering College, Kurnool (2023–2027)**.
+
+I am passionate about programming, software development, and web technologies. This portfolio showcases my academic background, technical skills, internship experience, projects, and certifications.
+
+## 🚀 Live Portfolio Website
+
+🌐 **Visit My Portfolio:** [Click Here to View My Portfolio](YOUR_LIVE_PORTFOLIO_URL)
+
+Explore my profile, technical skills, projects, internship experience, certifications, and contact information.
 
 ---
 
-## 📁 Project Directory Structure
+## 👩‍💻 About Me
+
+- 🎓 Pursuing B.Tech in Computer Science and Engineering.
+- 💻 Interested in Software Development and Web Technologies.
+- 🐍 Knowledge of Java, Python, and C programming.
+- 🌐 Familiar with HTML, CSS, and JavaScript.
+- 📊 Completed a Python Programming Internship at Embrizon Technologies.
+- 🚀 Developed projects using Python, Flask, and JavaScript.
+- 🎯 Seeking opportunities to apply my technical skills and grow professionally.
+
+## 🛠️ Technical Skills
+
+| Category | Skills |
+|---|---|
+| Programming Languages | Java, Python, C |
+| Core Concepts | Data Structures, OOPS |
+| Web Technologies | HTML, CSS, JavaScript |
+| Database | Basic SQL, DBMS |
+| Tools | VS Code, Jupyter Notebook, GitHub, MS Word, PowerPoint |
+
+## 🎓 Education
+
+| Qualification | Institution | Duration | Score |
+|---|---|---|---|
+| B.Tech – CSE | Ashoka Women's Engineering College | 2023–2027 | 7.85 CGPA |
+| Intermediate | KGBV Simhadripuram | 2021–2023 | 6.54 CGPA |
+| SSC | KGBV Sanjamala | 2020–2021 | 9.07 CGPA |
+
+## 💼 Internship Experience
+
+### Python Programming Intern – Embrizon Technologies
+
+**Duration:** July 2025 – September 2025
+
+Completed an online Python Programming Internship and gained practical experience in programming and data analysis.
+
+**Key Responsibilities & Learnings:**
+
+- Used Python and Pandas to clean and analyze datasets.
+- Handled missing values and duplicate records.
+- Created basic data visualizations using Matplotlib.
+- Developed simple Python automation scripts.
+- Improved analytical thinking and problem-solving skills.
+
+## 🚀 Projects
+
+### 1. Smart Healthcare Assistant for Disease Prediction and Management
+
+**Technologies:** Python, Flask, HTML, CSS, JavaScript
+
+**Description:**
+
+Developed a healthcare web application using Python and Flask to analyze user-provided symptoms and suggest possible health conditions with basic management guidance.
+
+**Key Features:**
+
+- Analyzes user-provided symptoms using basic symptom-matching logic.
+- Displays possible health conditions with symptom match percentages.
+- Provides basic disease management suggestions.
+- Displays severity indicators.
+- Offers guidance on when to consult a healthcare professional.
+- Provides a simple and user-friendly interface.
+
+### 2. Job Application Tracker
+
+**Technologies:** HTML, CSS, JavaScript
+
+**Description:**
+
+Developed a web application to help students and job seekers organize, manage, and track their job applications in one place.
+
+**Key Features:**
+
+- Records company name, job role, location, application date, and deadline.
+- Tracks application status across different recruitment stages.
+- Includes bookmark functionality to save job opportunities.
+- Provides dashboard statistics for applications, interviews, offers, and rejections.
+- Offers a simple and user-friendly interface.
+
+## 📜 Certifications
+
+- Python Programming Internship Certification – Embrizon Technologies.
+- Web Development Assignment Completion – Gnavasavi Technology.
+- Cloud Computing – NPTEL.
+
+## 💪 Strengths
+
+- Communication
+- Teamwork
+- Problem Solving
+- Adaptability
+
+## 🌍 Languages
+
+- Telugu – Native
+- English
+
+## 📬 Contact Me
+
+I am always interested in connecting with people, learning new technologies, and exploring opportunities in the software development field.
+
+- **Email:** kandiukurilahari6301@gmail.com
+- **Phone:** +91 6301145385
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/lahari-kandukuri-005174306)
+- **GitHub:** [Visit my GitHub Profile](https://github.com/Kandikurilahari)
+- **Portfolio:** [Visit My Website]https://my-portfolio-umber-nu-95.vercel.app/
+
+## 📂 Project Structure
 
 ```text
 LahariPortfolio/
-├── index.html                  # Main website markup
-├── style.css                   # Custom styles (navy, white, and light-blue palette)
-├── script.js                   # Navigation toggle, resume handling & form validation
-├── README.md                   # Setup guide and instructions
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+│
 └── assets/
-    ├── profile-placeholder.svg # Default avatar placeholder
-    ├── profile.jpg             # (Place your photo here)
-    ├── resume.pdf              # (Place your resume PDF here)
-    └── certifications/         # (Place your certificate files/images here)
-```
-
----
-
-## 🚀 How to Preview the Website in Your Browser
-
-You **do not need GitHub, Node.js, or any server** to run this website locally on your computer.
-
-### Method 1: Double-Click (Easiest)
-1. Open the `LahariPortfolio` folder in File Explorer.
-2. Double-click `index.html`.
-3. It will open instantly in your default web browser (Chrome, Edge, Firefox, Brave, etc.).
-
-### Method 2: Using VS Code Live Server (Recommended for Live Editing)
-1. Open the `LahariPortfolio` folder in **Visual Studio Code**.
-2. If you have the **Live Server** extension installed:
-   - Right-click `index.html` and click **"Open with Live Server"**.
-3. Any changes you make to the code will refresh automatically in the browser.
-
-### Method 3: Using Python Built-in Server (Optional)
-If you have Python installed, open PowerShell inside this folder and run:
-```powershell
-python -m http.server 8000
-```
-Then visit `http://localhost:8000` in your browser.
-
----
-
-## 📸 Where to Put Your Files & Update Placeholders
-
-### 1. Profile Photo
-- Save your profile picture as **`profile.jpg`** or **`profile.png`**.
-- Copy it into the `assets/` folder:
-  `LahariPortfolio/assets/profile.jpg`
-- The website script will automatically detect and display your photo in place of the default avatar placeholder!
-
-### 2. Resume PDF
-- Name your resume file **`resume.pdf`**.
-- Save it inside the `assets/` folder:
-  `LahariPortfolio/assets/resume.pdf`
-- When someone clicks the **"Download Resume"** button, your PDF will download automatically. If the file is not yet added, the website shows a polite notice instead of a broken 404 page.
-
-### 3. Certificates
-- Place your certificate PDFs or image files inside `assets/certifications/`.
-  Example: `assets/certifications/wipro-python.pdf`
-- In `index.html`, locate the `<!-- CERTIFICATIONS SECTION -->` and uncomment or add certificate cards with your certificate name, issuing organization, and completion date.
-
-### 4. Contact Details & Social Profiles (Configured)
-The contact section is already configured with your verified details:
-- **Email:** `kandiukurilahari6301@gmail.com`
-- **Phone:** `+91 6301145385`
-- **LinkedIn:** `https://www.linkedin.com/in/lahari-kandukuri-005174306`
-- **GitHub:** `https://github.com/Kandikurilahari`
-
-### 5. Education & Scores (Configured)
-Your scores are set according to your verified resume:
-- **B.Tech CSE:** CGPA 7.85 (Ongoing)
-- **Intermediate MPC:** CGPA 6.54 (65.4%)
-- **SSC:** CGPA 9.07 (90.6%)
-
----
-
-## 🎨 Design & Code Highlights
-
-- **Palette:** Deep Navy (`#0f172a`), Slate Blue (`#1e293b`), and Sky Blue accent (`#0284c7`).
-- **Responsive:** Optimized for smartphones, tablets, laptops, and wide screens.
-- **Accessible:** Semantic HTML5 landmarks, accessible ARIA attributes, and clear form labels.
-- **Truthful & Realistic:** Represents genuine student coursework, skills, and internship experience without exaggerated claims or fake testimonials.
-- **Client-Side Form Validation:** Validates contact inputs locally and offers a direct `mailto:` shortcut for static hosting.
+    ├── profile-placeholder.svg
+    ├── profile.jpg
+    ├──
